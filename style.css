@@ -7,8 +7,32 @@ body {
     margin: 0;
 }
 
+#top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+#dream-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+#bottom-banner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 100px;
+
+}
+
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 h3 {
@@ -19,34 +43,77 @@ h3 {
     color: rgb(246, 64, 32);
 }
 
-.first-anchor {
+.link-anchor {
     text-decoration: none;
     background-color: rgb(219, 72, 56);
     color: white;
     font-weight: 800;
     padding: 10px 30px;
     font-size: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
 
 }
 
 .flexible-container {
     display: flex;
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+
+
 
 }
 
-/*.flexible-container img {
+.flexible-container img {
     width: 100%;
-}*/
+}
+
+
 .half-width {
     width: 50%;
     padding-left: 100px;
-    padding-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 100px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+
+
 }
 
 .para-part {
     margin-bottom: 30px;
     text-align: justify;
+}
+
+.shadow-box {
+    padding: 20px;
+    box-shadow: 20px 20px 1000px rgb(45, 43, 43);
+}
+
+#first-exp {
+
+    border-left: 8px solid blue;
+    border-image-source: linear-gradient(blue, pink);
+    border-image-slice: 19;
+
+
+
+
+}
+
+#second-exp {
+    border-left: 8px solid;
+    border-image-source: linear-gradient(violet, pink);
+
+    border-image-slice: 19;
+
+
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(210, 241, 164);
+    height: 40px;
+    margin-bottom: 0;
+    padding: 20px;
+
+
 }
